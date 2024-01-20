@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row p-2">
+    <div class="list-item border p-2 d-flex gap-2">
+      <div class="check-box">
+        <input type="checkbox" [(ngModel)]="isChecked" >
+      </div>
+      <div class="description" [ngClass]="{'strike': isChecked}">
+        {{ description }}
+      </div>
+    </div>
+  </div>
+</div>

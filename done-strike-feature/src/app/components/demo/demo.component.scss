@@ -1,0 +1,14 @@
+.list-item{
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.check-box{
+    input{
+        cursor: pointer;
+    }
+}
+
+.strike{
+    text-decoration: line-through;
+}
